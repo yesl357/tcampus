@@ -1,6 +1,6 @@
 <h1 align="center"> apidoc </h1>
 
-<p align="center"> 自动生成api文-tcampus.</p>
+<p align="center"> 自动生成api文档-tcampus.</p>
 
 
 ## Installing
