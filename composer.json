@@ -1,0 +1,16 @@
+{
+    "name": "yesl357/apidoc",
+    "description": "tcampus-apidoc接口文档生成工具",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yesl",
+            "email": "1520683535@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yesl357\\Apidoc\\": "./src"
+        }
+    }
+}
