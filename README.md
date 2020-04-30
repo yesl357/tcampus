@@ -1,6 +1,6 @@
 <h1 align="center"> apidoc </h1>
 
-<p align="center">tcampus工具包/测试/p>
+<p align="center">tcampus工具包/测试 </p>
 
 
 ## Installing

@@ -6,18 +6,15 @@ namespace Yesl357\Apidoc;
 //简易的curl请求
 class Curl {
 
-    public function get($url, $headers = []) {
+    public function get($url) {
         $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_HEADER, false);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $res = curl_exec($curl);
+        curl_close($curl);
 
-        curl_setopt_array($curl, [
-            CURLOPT_URL => $url,
-            CURLOPT_HEADER => $headers
-        ]);
-
-        curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET');
-
-        $response = curl_exec($curl);
-
-        return $response;
+        return $res;
     }
 }
