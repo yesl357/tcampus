@@ -2,8 +2,9 @@
 
 <p align="center">tcampus工具包/测试 </p>
 
+[![Build Status](https://travis-ci.com/yesl357/tcampus.svg?branch=master)](https://travis-ci.com/yesl357/tcampus)
 
-## Installing
+## 安装
 
 ```shell
 $ composer require yesl357/apidoc -vvv
