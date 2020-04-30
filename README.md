@@ -1,6 +1,6 @@
 <h1 align="center"> apidoc </h1>
 
-<p align="center"> 自动生成api文档-tcampus.</p>
+<p align="center">tcampus工具包/测试/p>
 
 
 ## Installing
@@ -11,7 +11,15 @@ $ composer require yesl357/apidoc -vvv
 
 ## Usage
 
-TODO
+```php
+use Yesl357\Apidoc\IpService;
+
+$ipService = new IpService();
+
+$ip = your ip;
+$location = $ipService->getLocation($ip);
+
+```
 
 ## Contributing
 
