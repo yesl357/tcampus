@@ -94,3 +94,5 @@ $positions = $trieTree->searchString($str);
 foreach ($positions as $position) {
     echo sprintf('【%s】出现在第%s至%s个字符之间', mb_substr($str, $position[0], $position[1] - $position[0] + 1), $position[0] + 1, $position[1] + 1).PHP_EOL;
 }
+
+new \SplMinHeap();
